@@ -1,9 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
+
     text-align: center;
     justify-content: center;
     display: flex;
     background: linear-gradient(to left, rgba(235, 235, 88, 0.171), rgba(238, 238, 238, 0.329), rgba(235, 235, 88, 0.171));
     align-items: center;
+}
+
+@media (orientation:landscape) and (min-width: 400px){
+    .container{
+        font-size: 160px;
+        width:0.01rem;
+        margin-left: 200px;
+       
+    }
 }
 
 .container{
