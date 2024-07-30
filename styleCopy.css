@@ -14,16 +14,14 @@ body{
 
 @media (orientation:landscape) and (min-width: 400px){
     .container{
-        font-size: 160px;
-        width:0.01rem;
-        margin-left: 200px;
-       
+        color: black;
+
     }
 }
 
 .container{
     width: 600px;
-    height: 3250px;
+    height: 2650px;
     font-family: monospace;
     font-size: 26px;
     background-color: white;
